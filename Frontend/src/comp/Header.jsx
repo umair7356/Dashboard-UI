@@ -20,14 +20,14 @@ function Header() {
   return (
     <div>
       <header className="flex justify-between p-4 bg-white shadow">
-        <h1 className="text-xl font-bold">Welcome Back, MR Umair Islam</h1>
+        <h1 className="text-2xl font-bold">Welcome Back, MR Umair Islam</h1>
         <div className="flex flex-row mr-12 space-x-8 items-center">
           <div className="relative">
             <button
               onClick={() => setIsNotificationOpen(!isNotificationOpen)}
               className="relative focus:outline-none"
             >
-              <BellIcon className="w-5 h-5 text-gray-600 hover:text-purple-600" />
+              <BellIcon className="w-10 h-10 text-gray-600 hover:text-purple-600" />
               {notifications.length > 0 && (
                 <span className="absolute top-0 right-0 inline-flex items-center justify-center w-5 h-5 text-xs font-bold text-white bg-red-500 rounded-full">
                   {notifications.length}
