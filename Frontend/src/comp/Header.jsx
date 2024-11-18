@@ -20,7 +20,7 @@ function Header() {
   return (
     <div>
       <header className="flex justify-between p-4 bg-white shadow">
-        <h1 className="text-2xl font-bold">Welcome Back, MR Umair Islam</h1>
+        <h1 className="text-xl font-bold">Welcome Back, MR Umair Islam</h1>
         <div className="flex flex-row mr-12 space-x-8 items-center">
           <div className="relative">
             <button
